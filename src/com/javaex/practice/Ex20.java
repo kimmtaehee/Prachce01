@@ -20,7 +20,7 @@ public class Ex20 {
 		System.out.print("10원 개수: ");
 		byte d = sc.nextByte();
 		
-		System.out.print("동전의 총합은 " + a + b + c + d + " 원 입니다.");
+		System.out.print("동전의 총합은 " + (a*500 + b*100 + c*50 + d*10) + " 원 입니다.");
 		
 		sc.close();
 		

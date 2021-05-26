@@ -9,9 +9,9 @@ public class Ex12 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("반지름을 입력하세요:");
-		float radius = sc.nextFloat();
+		float r = sc.nextFloat();
 		
-		System.out.print("원의 넓이는 " + radius );
+		System.out.print("원의 넓이는 " + r*r*3.14 );
 		
 		sc.close();
 	}

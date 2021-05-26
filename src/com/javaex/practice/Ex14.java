@@ -16,7 +16,7 @@ public class Ex14 {
 		
 		System.out.println("사각형의 넓이는 " + w*4);
 		
-		System.out.println("사각형의 둘레는 " + (w*h)*2);
+		System.out.println("사각형의 둘레는 " + (w+h)*2);
 		
 		
 		sc.close();

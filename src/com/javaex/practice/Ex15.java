@@ -10,7 +10,7 @@ public class Ex15 {
 		
 		double mail_1 = 1.609;
 		
-		System.out.println("마일을 입력하세요 : ");
+		System.out.print("마일을 입력하세요 : ");
 		int mail = sc.nextInt();
 		
 		System.out.println( (double)mail + "마일은 " + mail*mail_1 + "킬로미터 입니다.");

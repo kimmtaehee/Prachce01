@@ -13,7 +13,7 @@ public class Ex13 {
 		System.out.print("환전할 원화를 입력하세요 :");
 		int money = sc.nextInt();
 		
-		System.out.print("받으실 달러는 " + money*Exchange);
+		System.out.print("받으실 달러는 " + money/Exchange);
 		
 		sc.close();
 
