@@ -8,11 +8,10 @@ public class Ex11 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("월급을 입력하세요: ");
+		System.out.print("월급을 입력하세요:");
+		String Salary = sc.nextLine();
 		
-		int Salary = sc.nextInt();
-		
-		System.out.println("10년동안 최대 저축액은 " + Salary*120 + " 원 입니다.");
+		System.out.println("10년동안 최대 저축액은 " + Salary + " 원 입니다.");
 		
 		
 		sc.close();
